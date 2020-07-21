@@ -1,0 +1,40 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+#btn{
+    background: linear-gradient(90deg, #32d166 0%, #2ab8d4 100%);
+    color: white;
+}
+.mockup{
+    position: relative;
+    top: 10%;
+}
+h1{
+color: #2D314D;
+}
+p{
+    color: #A7A9B5;
+
+}
+.banner{
+    background-color: #FAFAFA;
+}
+.section{
+    background-color: #F3F4F6;
+}
+.image{
+    background-image: url("../assets/images/bg-intro-desktop.svg");
+    width: 55%;
+    height: 90vh;
+    background-position: left;
+}
+.footer-section{
+    background-color: #2D314D;
+}
+div a{
+    color: #2D314D;
+}

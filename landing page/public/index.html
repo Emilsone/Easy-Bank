@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="public/build/tailwind.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <title>Easy Bank</title>
+</head>
+
+<body class="antialiased">
+    <div id="App">
+        <nav class="flex items-center justify-between flex-wrap bg-white p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <img src="assets/images/logo.svg" alt="" class=" " width="200" height="200">
+                <!-- <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span> -->
+            </div>
+            <div class="block lg:hidden">
+                <button
+                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <div class="text-lg lg:flex-grow ">
+                    <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-black mr-4">
+                        Home
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-2 hover:text-black mr-4">
+                        About
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-2 hover:text-black mr-4">
+                        Blog
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-2 hover:text-black mr-4">
+                        Contact
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-2 hover:text-black mr-4">
+                        Careers
+                    </a>
+                </div>
+                <div>
+                    <a href="#"
+                        class="inline-block  h-10 w-24 text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+                        id="btn">Download</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="mt-5 bg-gray-100 banner">
+        <div class="banner flex">
+            <div class="text mt-20">
+                <h1 class="text-5xl ml-24 mt-16 ">Next generation digital banking</h1>
+                <p class="text-lg ml-24 mt-4">Take your financial life online. Your Easybank account<br> will be a
+                    one-stop-shop for spending, saving,<br>
+                    budgeting, investing, and much more.</p>
+            </div>
+            <div class="image">
+                <!-- <img src="assets/images/bg-intro-desktop.svg" srcset="" class="lg:w-full ml-20"> -->
+                <img src="assets/images/image-mockups.png" alt="" srcset="" class="w-4/5  ml-24  mockup">
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="text pl-32">
+            <h1 class="text-5xl  pt-20">Why choose Easybank?</h1>
+            <p class="text-lg  pt-6">We leverage Open Banking to turn your bank account into your financial
+                hub.<br> Control your finances like
+                never before.</p>
+        </div>
+
+        <div class="flex  flex-wrap justify-center py-32 md:py-24 ">
+            <div class=" text-gray-700  px-4 py-4 m-2">
+                <img src="assets/images/icon-online.svg" alt="">
+                <h1 class="text-lg py-6">Online Banking</h1>
+                <p>Our modern web and mobile <br>applications allow you to keep<br> track of your finances wherever
+                    you<br> are
+                    in the world.</p>
+            </div>
+            <div class=" text-gray-800  px-4 py-2 m-2">
+                <img src="assets/images/icon-budgeting.svg" alt="budegetting icon">
+                <h1 class="text-lg py-6">Simple Budgeting</h1>
+                <p>
+                    See exactly where your money <br>goes each month. Receive <br>notifications when you’re close to
+                    <br>hitting
+                    your limits.</p>
+            </div>
+            <div class=" text-gray-700  px-4 py-2 m-2">
+                <img src="assets/images/icon-onboarding.svg" alt="">
+                <h1 class="text-lg py-6">Fast Onboarding</h1>
+                <p>We don’t do branches. Open your<br> account in minutes online and start<br> taking control of
+                    your
+                    finances<br> right away.</p>
+            </div>
+            <div class=" text-gray-700 ">
+                <img src="assets/images/icon-api.svg" alt="">
+                <h1 class="text-lg py-6">Open Api</h1>
+                <p>Manage your savings, investments,<br> pension, and much more from one<br> account. Tracking your
+                    money
+                    has<br> never been easier.</p>
+            </div>
+        </div>
+    </div>
+    <div class="articles bg-gray-100 ">
+        <div class="text-5xl  ml-24 py-12">Latest Articles</div>
+
+        <div id="container">
+            <div class="flex flex-col sm:flex-row md:flex-row">
+                <!-- Card 1 -->
+                <div class="sm:w-1/4 p-2">
+                    <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+                        <div class="">
+                            <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                                alt="" class="w-auto">
+                        </div>
+                        <div class="px-6">
+                            <h2 class="text-xl font-medium text-gray-700">Pande Muliada</h2>
+                            <span class="text-blue-500 block mb-5">Front End Developer</span>
+
+                            <a href="#" class="px-4 py-2 bg-blue-500 text-white rounded-full">Hire</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div class="sm:w-1/4 p-2">
+                    <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+                        <div class="">
+                            <img class="w-full p-6" src="assets/images/image-restaurant.jpg" alt="" />
+                        </div>
+                        <h2 class="text-xl font-medium text-gray-700">Saraswati Cahyati</h2>
+                        <span class="text-blue-500 block mb-5">Back End Developer</span>
+
+                        <a href="#" class="px-4 py-2 bg-blue-500 text-white rounded-full">Hire</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="sm:w-1/4 p-2">
+                    <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+                        <div class="">
+                            <img class="w-auto " src="assets/images/image-plane.jpg" alt="" />
+                        </div>
+                        <h2 class="text-xl font-medium text-gray-700">Wayan Alex</h2>
+                        <span class="text-blue-500 block mb-5">Data Scientist</span>
+
+                        <a href="#" class="px-4 py-2 bg-blue-500 text-white rounded-full">Hire</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="sm:w-1/4 p-2">
+                    <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+                        <div class="">
+                            <img class="w-auto" src="assets/images/image-confetti.jpg" alt="" />
+                        </div>
+                        <h2 class="text-xl font-medium text-gray-700">Ketut Julia</h2>
+                        <span class="text-blue-500 block mb-5">Project Manager</span>
+
+                        <a href="#" class="px-4 py-2 bg-blue-500 text-white rounded-full">Hire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <div class=" p-8 flex  flex-wrap justify-around text-sm leading-loose mt-4">
+                <div class=" ">
+                    <img src="assets/images/logo.svg" alt="" class="">
+                </div>
+                <div class=" ">
+                    <ul class=" text-white">
+                        <li>About Us</li>
+                        <li>Contact</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class=" text-white">
+                        <li>Carrers</li>
+                        <li>Support</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+
+                <div class="button">
+                    <button
+                        class="bg-blue-500 h-10 w-64 mt-4 px-10 p-2 mt-2 text-xs active:bg-blue-700 text-white... rounded-full"
+                        id="btn">
+                        Request Invite
+                    </button>
+                    <p class="py-6">&copy; Easybank all rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+        new Vue({
+            el: "#App",
+            data: {
+                
+            }
+        })
+    </script>
+</body>
+
+</html>
